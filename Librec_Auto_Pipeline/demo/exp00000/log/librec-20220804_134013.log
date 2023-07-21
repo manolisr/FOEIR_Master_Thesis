@@ -1,0 +1,21 @@
+22/08/04 13:40:13 INFO TextDataConvertor: Dataset: [../data/train-1.txt]
+22/08/04 13:40:13 INFO TextDataConvertor: DataSet: ../data/train-1.txt is finished
+22/08/04 13:40:13 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:13 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:13 INFO TextDataModel: Transform data to Convertor successfully!
+22/08/04 13:40:13 INFO TextDataConvertor: Dataset: [../data/test-1.txt]
+22/08/04 13:40:13 INFO TextDataConvertor: DataSet: ../data/test-1.txt is finished
+22/08/04 13:40:13 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:13 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:13 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/04 13:40:13 INFO TextDataModel: Data cardinality of training is 6428
+22/08/04 13:40:13 INFO TextDataModel: Data cardinality of testing is 1
+22/08/04 13:40:13 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/08/04 13:40:13 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+22/08/04 13:40:13 INFO TextDataConvertor: Dataset: [../data/test-1.txt]
+22/08/04 13:40:13 INFO TextDataConvertor: DataSet: ../data/test-1.txt is finished
+22/08/04 13:40:13 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:13 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:14 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of training is 6428
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of testing is 1

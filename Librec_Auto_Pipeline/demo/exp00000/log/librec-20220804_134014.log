@@ -1,0 +1,44 @@
+22/08/04 13:40:14 INFO TextDataConvertor: Dataset: [../data/train-1.txt]
+22/08/04 13:40:14 INFO TextDataConvertor: DataSet: ../data/train-1.txt is finished
+22/08/04 13:40:14 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:14 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:14 INFO TextDataModel: Transform data to Convertor successfully!
+22/08/04 13:40:14 INFO TextDataConvertor: Dataset: [../data/test-1.txt]
+22/08/04 13:40:14 INFO TextDataConvertor: DataSet: ../data/test-1.txt is finished
+22/08/04 13:40:14 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:14 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:14 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of training is 6428
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of testing is 1
+22/08/04 13:40:14 INFO TextDataConvertor: Dataset: [../data/split/cv_1/train.txt]
+22/08/04 13:40:14 INFO TextDataConvertor: DataSet: ../data/split/cv_1/train.txt is finished
+22/08/04 13:40:14 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:14 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:14 INFO TextDataModel: Transform data to Convertor successfully!
+22/08/04 13:40:14 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+22/08/04 13:40:14 INFO TextDataConvertor: DataSet: ../data/split/cv_1/test.txt is finished
+22/08/04 13:40:14 INFO TextDataConvertor: rating Scale: [1.0]
+22/08/04 13:40:14 INFO TextDataConvertor: user number: 6030,	 item number is: 2661
+22/08/04 13:40:14 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of training is 6428
+22/08/04 13:40:14 INFO TextDataModel: Data cardinality of testing is 1
+22/08/04 13:40:14 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+22/08/04 13:40:14 INFO BiasedMFRecommender: Job Setup completed.
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 0.007883567134328933, delta_loss = -0.007883567
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 0.006622956052256592, delta_loss = 0.0012606111
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 0.006184099533725991, delta_loss = 4.388565E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 0.005866344413149807, delta_loss = 3.1775513E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 0.005582412788694506, delta_loss = 2.8393161E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 0.005320233697567252, delta_loss = 2.621791E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 0.005076926677245314, delta_loss = 2.4330702E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 0.004850800299288175, delta_loss = 2.2612637E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 0.0046404090621991875, delta_loss = 2.1039124E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 0.004444444628594262, delta_loss = 1.9596443E-4
+22/08/04 13:40:14 INFO BiasedMFRecommender: Job Train completed.
+22/08/04 13:40:14 INFO RecommenderJob: ExpCMD: COMPLETE
+22/08/04 13:40:14 INFO RecommenderJob: EvalCMD: START
+22/08/04 13:40:14 INFO BiasedMFRecommender: begin recommend
+22/08/04 13:40:15 INFO BiasedMFRecommender: end recommend
+22/08/04 13:40:15 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.0
+22/08/04 13:40:15 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.0
+22/08/04 13:40:15 INFO BiasedMFRecommender: begin recommend

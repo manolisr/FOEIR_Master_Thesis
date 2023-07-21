@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Configuration file for CIKM 2021 demo -->
+<!-- Part 01: Basic functionality -->
+<!-- Adapted from demo video demo due to recent software updates -->
+
+<librec-auto>
+	<random-seed>202110</random-seed>
+	<thread-count>1</thread-count>
+	<library src="system">default-algorithms.xml</library>
+
+	<!-- DATA SECTION -->
+	<data>
+		<data-dir>../data</data-dir>
+		<format>UIR</format>
+		<train-file format="text">train-1.txt</train-file>
+		<test-file>test-1.txt</test-file>
+	</data>
+
+	<!-- FEATURES SECTION -->
+	<!--<features>
+		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
+		<item-feature-file>item-features.csv</item-feature-file>
+		<protected-feature name="fea:new" type="item">new</protected-feature>
+	</features>-->
+
+	<!-- SPLITTER SECTION -->
+	<splitter>
+		<model>testset</model>
+		<save>true</save>
+	</splitter>
+
+	<!-- ALGORITHM SECTION -->
+	<!-- Using biased matrix factorization just for demonstration purposes. -->
+	<!-- See default-library.xml file for different LibRec algorithms and their parameters -->
+	<alg ref="alg:biasedmf">
+		<similarity type="item">cos</similarity>
+		<iterator-max>10</iterator-max> <!-- Way too few iterations to be meaningful -->
+		<item-reg>0.001</item-reg>
+		<num-factors>20</num-factors>
+	</alg>
+
+	<!-- METRICS SECTION -->
+	<metric>
+		<ranking>true</ranking>
+		<list-size>10</list-size>
+		<class>ndcg,precision</class>
+	</metric>
+
+</librec-auto>
