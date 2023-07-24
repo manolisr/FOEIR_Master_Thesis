@@ -1,4 +1,3 @@
-![BASE_Flow](https://github.com/manolisr/FOEIR_Master_Thesis/assets/48391307/ab103ebf-0cd1-49c7-a71a-328776922c7a)# FOEIR_Master_Thesis
 
 ## Abstract
 Recommendations should serve the needs of all their partakers. Not only should they try
