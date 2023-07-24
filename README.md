@@ -14,3 +14,6 @@ objects by 50% more on average, than the non-popular ones. Stricter constraints 
 adopted to ensure fairness on an object level, under a dynamic temporal recommendation
 setting.
 
+## Data Generation Instructions
+
+![1](https://github.com/manolisr/FOEIR_Master_Thesis/assets/48391307/dd2494f3-f4ce-42dd-8af5-db2fe1707058)
